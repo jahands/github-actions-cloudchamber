@@ -1,0 +1,16 @@
+{
+  "name": "github-actions-cloudchamber",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "docker:login": "npx wrangler cloudchamber registries credentials registry.uuid.rocks --push --pull | docker login --password-stdin --username v1 registry.uuid.rocks"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "wrangler": "^3.61.0"
+  },
+  "dependencies": {}
+}
