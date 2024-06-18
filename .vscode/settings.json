@@ -1,0 +1,5 @@
+{
+  "gitlens.remotes": [
+    { "domain": "bitbucket.cfdata.org", "type": "BitbucketServer" }
+  ]
+}
