@@ -2,8 +2,9 @@
 
 ## Notes
 
-- Docker registry deployed here: https://github.com/jahands/serverless-registry/tree/production
+- Docker registry: https://github.com/jahands/serverless-registry/tree/production
   - Linked with Cloudchamber
+  - Url: registry.uuid.rocks
 
 Login to registry locally:
 
