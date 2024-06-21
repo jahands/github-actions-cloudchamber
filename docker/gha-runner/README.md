@@ -5,7 +5,7 @@ Build and push:
 ```shell
 DOCKER_DEFAULT_PLATFORM=linux/amd64 \
     docker build . -t registry.uuid.rocks/cc/gha-runner:debian-slim \
-    && bun docker:login:wci \
+    && bun docker:login \
     && docker push registry.uuid.rocks/cc/gha-runner:debian-slim
 ```
 
