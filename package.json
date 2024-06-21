@@ -3,7 +3,8 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "docker:login": "npx wrangler cloudchamber registries credentials registry.uuid.rocks --push --pull | docker login --password-stdin --username v1 registry.uuid.rocks"
+    "docker:login": "npx wrangler cloudchamber registries credentials registry.uuid.rocks --push --pull | docker login --password-stdin --username v1 registry.uuid.rocks",
+    "docker:login:wci": "npx wrangler cloudchamber registries credentials r2-registry-demo.cloudflare-workers-ci-staging.workers.dev --push --pull | docker login --password-stdin --username v1 r2-registry-demo.cloudflare-workers-ci-staging.workers.dev"
   },
   "devDependencies": {
     "@types/bun": "latest"
